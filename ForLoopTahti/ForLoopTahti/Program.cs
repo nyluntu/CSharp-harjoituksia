@@ -14,71 +14,71 @@ namespace ForLoopTahti
             // ENSIMMAINEN OSA ====================== 
             // ====================================== 
 
-            // Luo funktio, joka koristelee sille parametrina annetun 
-            // merkkijonon. Koristerivi-funktio koristelee merkkijonon
+            //Luo funktio, joka koristelee sille parametrina annetun
+            // merkkijonon.Koristerivi - funktio koristelee merkkijonon
             // lisäämällä sen alkuun ja loppuun tähtiä 8 kappaletta.
             // Koristerivi("TURO");
 
-            // Parantele Koristerivi-funktiota siten, että se huomioi nimen
-            // pituuden. Voidaan olettaa, että merkkijonon kokonaispituus
+            //Parantele Koristerivi-funktiota siten, että se huomioi nimen
+            // pituuden.Voidaan olettaa, että merkkijonon kokonaispituus
             // kun mukaan luetaan tähdet ja nimi, on enintään 30 merkkiä.
-            //
-            // Tehtävässä ei tarvitse huomioida parittomia lukuja, joten 
+
+            // Tehtävässä ei tarvitse huomioida parittomia lukuja, joten
             // jos nimessä on pariton määrä kirjaimia, voi tuloste olla 29
             // tai 31 merkkiä.
             // Koristerivi("TURO");
-            // Koristerivi("SALMINEN");
-            // Koristerivi("AB");
+            //Koristerivi("SALMINEN");
+            //Koristerivi("AB");
 
-            // Parantele Koristerivi -funktiota siten, että voit määrittää
-            // nimen lisäksi rivin pituuden.
-            // Koristerivi("TURO", 30);
+            //Parantele Koristerivi -funktiota siten, että voit määrittää
+            //nimen lisäksi rivin pituuden.
+            //Koristerivi("TURO", 30);
 
-            // Parantele Koristerivi-funktiota siten, että voit määrittää
-            // edellisten parametrien lisäksi tulostettavan merkin.
+            //Parantele Koristerivi-funktiota siten, että voit määrittää
+            //edellisten parametrien lisäksi tulostettavan merkin.
             // Koristerivi("TURO", 30, "=");
 
             // ====================================== 
             // TOINEN OSA =========================== 
             // ====================================== 
 
-            // Luo funktio, joka tulostaa nimen päälle ja alle 3 riviä 
-            // tähtiä. Voit hyödyntää edellisessä tehtävässä syntynyttä 
-            // funktiota kun tulostat nimeä. Huomaa, että tähtien määrä
-            // riveillä pitää olla sama kuin edellisessä tehtävässä eli
-            // 30 merkkiä. 
-            //
-            // Tehtävässä ei tarvitse huomioida tilannetta, jossa nimessä
-            // on pariton määrä merkkejä. Voidaan olettaa, että tulostetuissa
-            // riveissä on aina 30 merkkiä nimen tulosteesta huolimatta.
-            // KoristeNelio("TURO");
+            // Luo funktio, joka tulostaa nimen päälle ja alle 3 riviä
+            //  tähtiä.Voit hyödyntää edellisessä tehtävässä syntynyttä
+            // funktiota kun tulostat nimeä.Huomaa, että tähtien määrä
+            //riveillä pitää olla sama kuin edellisessä tehtävässä eli
+            //  30 merkkiä.
+
+            //  Tehtävässä ei tarvitse huomioida tilannetta, jossa nimessä
+            //  on pariton määrä merkkejä. Voidaan olettaa, että tulostetuissa
+            //  riveissä on aina 30 merkkiä nimen tulosteesta huolimatta.
+            //  KoristeNelio("TURO");
 
             // Paranna edellistä funktiota siten, että voit nimen lisäksi
             // määrittää tulostettavien rivien ja rivin pituuden määrän.
-            // KoristeNelio("TURO", 3, 20);
+            //  KoristeNelio("TURO", 3, 20);
 
             // Paranna edellistä funktiota siten, että voit antaa parametrina
-            // tulostettavan merkin. Tarvittaessa voit hyödyntää harjoituksessa
-            // luotuja funktioita. Muuta tällöin funktioiden toteutuksia sellaiseksi,
-            // että ne vastaavat uutta toimeksiantoa.
-            // KoristeNelio("TÄHTI NELIÖ", 4, 40, "=");
+            // tulostettavan merkin.Tarvittaessa voit hyödyntää harjoituksessa
+            //  luotuja funktioita. Muuta tällöin funktioiden toteutuksia sellaiseksi,
+            //  että ne vastaavat uutta toimeksiantoa.
+            //  KoristeNelio("TÄHTI NELIÖ", 4, 40, "=");
 
             // ====================================== 
             // KOLMAS OSA =========================== 
             // ====================================== 
 
-            // Olet tähän mennessä tehnyt funktion tulostamaan Koristerivin ja
+            //Olet tähän mennessä tehnyt funktion tulostamaan Koristerivin ja
             // koriste neliön. Nyt sovella osaamistasti ja toteuta samalla tapaa
-            // KoristeKolmio. Funktio tulostaa kyljellään olevan kolmion. Voidaan
-            // olettaa, että kolmion kärjen pituus on 10 merkkiä sen pohjasta.
-            //
-            // Harjoituksessa riittää, että tulostat vain kolmion. Käyttäjän pitää
+            // KoristeKolmio.Funktio tulostaa kyljellään olevan kolmion.Voidaan
+            //olettaa, että kolmion kärjen pituus on 10 merkkiä sen pohjasta.
+
+            //Harjoituksessa riittää, että tulostat vain kolmion.Käyttäjän pitää
             // pystyä määrittämään tulostettava merkki funktioon annettavana
-            // parametrinä. Nimeä ei tässä harjoituksessa ole pakko tulostaa.
-            // 
-            // Esimerkkituloste (kolmion kärki -tekstiä ei tarvitse tulostaa, 
-            // se on vain huomio):
-            //
+            // parametrinä.Nimeä ei tässä harjoituksessa ole pakko tulostaa.
+
+            //Esimerkkituloste(kolmion kärki - tekstiä ei tarvitse tulostaa,
+            //se on vain huomio):
+            
             // *
             // **
             // ***
@@ -86,7 +86,7 @@ namespace ForLoopTahti
             // *****
             // ******
             // *******
-            // ******** (Kolmion kärki)
+            // ********(Kolmion kärki)
             // *******
             // ******
             // *****
@@ -96,11 +96,11 @@ namespace ForLoopTahti
             // *
             //KoristeKolmio("=");
 
-            // Parantele KoristeKolmio-funktiota siten, että voit antaa tulostettavien
+            //Parantele KoristeKolmio-funktiota siten, että voit antaa tulostettavien
             // merkkien lisäksi pituuden kolmion kärkeä varten. Kolmion kärjellä tässä
             // tarkoitetaan kolmion riviä, jossa on kokonaisuudessaan annettu määrä
             // merkkejä.
-            KoristeKolmio("=", 20);
+            //KoristeKolmio("=", 20);
 
         }
 
