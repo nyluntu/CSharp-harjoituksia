@@ -78,7 +78,7 @@ namespace ForLoopTahti
 
             //Esimerkkituloste(kolmion kärki - tekstiä ei tarvitse tulostaa,
             //se on vain huomio):
-            
+
             // *
             // **
             // ***
@@ -102,9 +102,92 @@ namespace ForLoopTahti
             // merkkejä.
             //KoristeKolmio("=", 20);
 
+            // =================================
+            // NELJÄS OSA ======================
+            // =================================
+
+            // Paranna aikaisemmin toteuttamaasi KoristeRivi-funktiota siten,
+            // että toteutat sen olio-ohjelmoinnin tapaan. Tämä tarkoittaa sitä,
+            // että luot luokan nimeltä Koristaja, jolla on TulostaRivi-metodi.
+            //
+            // Olion luominen ja metodin kutsuminen tapahtuu seuraavalla tavalla:
+            //
+            //Koristaja koristaja = new Koristaja();
+            //koristaja.TulostaRivi("TURO", 30, "=");
+
+            // Paranna Korista-luokkaa siten, että siirrät myös KoristeNelio-funktion
+            // toiminnallisuuden luokan metodiksi. Metodin nimi Koristaja-luokassa 
+            // on TulostaNelio.
+            //
+            // Olion luominen ja metodin kutsuminen tapahtuu seuraavalla tavalla:
+            //
+            //Koristaja koristaja = new Koristaja();
+            //koristaja.TulostaNelio("SALMINEN", 2, 25, "=");
+
+            // =================================
+            // VIIDES OSA ======================
+            // =================================
+
+            // Tähän mennessä alkuperäiset funktiot on siirretty Koristaja-luokan
+            // metodeiksi. Varsinaisesti tässä ei vielä luokan ominaisuuksia hyödynnetä.
+            // Seuraavaksi tehtävänä on huomioida samankaltaiset piirteet luokan
+            // metodeista ja siirtää ne luokan ominaisuuksiksi.
+            //
+            // Luodaan seuraavaksi luokalle ominaisuudet: tulostettavaMerkkijono,
+            // rivienMaara, sarakkeidenMaara ja tulostettavaMerkki.
+            //
+            // Luokan ominaisuudet voivat olla julkisia (public) tässä harjoituksessa,
+            // jotta voit käsitellä tietoja. Lopputuloksena oliota käsitellään seuraavalla
+            // tavalla.
+            //
+            // (HUOM: jos et sijoita ominaisuuksiin arvoja, ohjelma saattaa tässä vaiheessa
+            // vielä aiheuttaa virheen.)
+            //Koristaja koristaja = new Koristaja();
+            //koristaja.tulostettavaMerkkijono = "TURO";
+            //koristaja.tulostettavaMerkki = "#";
+            //koristaja.rivienMaara = 3;
+            //koristaja.sarakkeidenMaara = 25;
+
+            // Nyt luokalla on ominaisuuksia mutta ne eivät vielä vaikuta ohjelmaan.
+            // Seuraavaksi parannetaan TulostaRivi-metodia siten, että voit määrittää
+            // sen käyttämät parametrit luokan ominaisuuksia käyttäen. Tämä vaatii
+            // muutoksia TulostaRivi-metodin kutsumiseen. 
+            //
+            // Olion luominen ja metodin kutsuminen tapahtuu seuraavalla tavalla:
+            //Koristaja koristaja = new Koristaja();
+            //koristaja.tulostettavaMerkkijono = "TURO";
+            //koristaja.tulostettavaMerkki = "#";
+            //koristaja.rivienMaara = 3;
+            //koristaja.sarakkeidenMaara = 25;
+
+            //koristaja.TulostaRivi();
+
+            // =================================
+            // KUUDES OSA ======================
+            // =================================
+            //
+            // Edellisessä harjoituksessa loit luokalle ominaisuudet ja parantelit
+            // olemassaolevaa metodia. Nyt tee samoin mutta luokan toiselle metodille,
+            // eli TulostaNelio-metodille.
+            //
+            // Olion luominen ja metodin kutsuminen tapahtuu seuraavalla tavalla:
+            //
+            // (HUOM. kun olet toteuttanut tämän osan, sinulla on kaksi metodia luokassa.
+            // On hyvien tapojen mukaista katsoa mitä samaa metodit tekevät ja mikäli
+            // et ole siistinyt ohjelmakoodia, tässä on hyvä paikka. Siistimisellä
+            // tässä tarkoitetaan, että voit luoda luokkaan yksityisiä (private) metodeja
+            // joita käytetään vain luokan sisällä. Eli metodeja ei voi kutsua kuten
+            // TulostaRivi() ja TulostaNelio() -metodeja.)
+            Koristaja koristaja = new Koristaja();
+            koristaja.tulostettavaMerkkijono = "TURO";
+            koristaja.tulostettavaMerkki = "#";
+            koristaja.rivienMaara = 2;
+            koristaja.sarakkeidenMaara = 15;
+
+            koristaja.TulostaNelio();
         }
 
-       
+
 
         // ====================================== 
         // ENSIMMAINEN OSA ====================== 
