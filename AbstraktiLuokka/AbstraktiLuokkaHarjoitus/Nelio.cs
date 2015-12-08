@@ -4,9 +4,9 @@ namespace AbstraktiLuokkaHarjoitus
 {
     public class Nelio : Kuvio
     {
-        int sivunLeveys;
+        double sivunLeveys;
 
-        public Nelio(int sivunLeveys)
+        public Nelio(double sivunLeveys)
         {
             this.sivunLeveys = sivunLeveys;
         }
@@ -20,6 +20,5 @@ namespace AbstraktiLuokkaHarjoitus
         {
             Console.WriteLine(" [ ] ");
         }
-
     }
 }
