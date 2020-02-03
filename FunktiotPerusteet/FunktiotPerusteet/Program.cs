@@ -41,13 +41,13 @@ namespace FunktiotPerusteet
             varattujaPoytia = KasvataVarattujaPoytia(varattujaPoytia);
 
             TulostaUudelleRiville("Varattuja pöytiä: " + varattujaPoytia);
-            varattujaPoytia = KasvataVarattujaPoytia(varattujaPoytia);
+            //varattujaPoytia = KasvataVarattujaPoytia(varattujaPoytia);
 
-            TulostaUudelleRiville("----------------------------------");
-            TulostaUudelleRiville("Vieraiden määrä: " + vieraidenMaara);
-            KasvataVieraidenMaaraa(vieraidenMaara);
-            TulostaUudelleRiville("Vieraiden määrä: " + vieraidenMaara);
-            KasvataVieraidenMaaraa(vieraidenMaara);
+            //TulostaUudelleRiville("----------------------------------");
+            //TulostaUudelleRiville("Vieraiden määrä: " + vieraidenMaara);
+            //KasvataVieraidenMaaraa(vieraidenMaara);
+            //TulostaUudelleRiville("Vieraiden määrä: " + vieraidenMaara);
+            //KasvataVieraidenMaaraa(vieraidenMaara);
 
 
             TulostaUudelleRiville("Vieraiden määrä: " + vieraidenMaara);
